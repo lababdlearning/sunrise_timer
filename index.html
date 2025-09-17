@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunrise & Sunset Times</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>☀️ Sunrise & Sunset Times</h1>
+    <p id="location">Detecting your location...</p>
+    <div class="manual-location">
+      <label for="lat">Latitude:</label>
+  <input type="number" id="lat" step="any" placeholder="e.g. 40.7128" value="21.529792">
+      <label for="lon">Longitude:</label>
+  <input type="number" id="lon" step="any" placeholder="e.g. -74.0060" value="70.448161">
+      <button id="use-manual">Use Location</button>
+    </div>
+    <div class="card">
+      <p><strong>Sunrise:</strong> <span id="sunrise">--:--</span></p>
+      <div class="mantra sunrise-mantra">
+        <div>ओ३म् सूर्याय स्वाहा । सूर्याय इदम् न मम ॥<br>ओ३म् प्रजापतये स्वाहा । प्रजापतये इदम् न मम ॥</div>
+      </div>
+      <p><strong>Sunset:</strong> <span id="sunset">--:--</span></p>
+      <div class="mantra sunset-mantra">
+        <div>ओ३म् अग्नये स्वाहा । अग्नये इदम् न मम ॥<br>ओ३म् प्रजापतये स्वाहा । प्रजापतये इदम् न मम ॥</div>
+      </div>
+    </div>
+    <button id="refresh">🔄 Refresh</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+

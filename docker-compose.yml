@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  sunrise-sunset-app:
+    build: .
+    container_name: sunrise-sunset
+    ports:
+      - "8081:80"
+    restart: unless-stopped
+

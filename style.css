@@ -1,0 +1,83 @@
+.mantra {
+  font-family: 'Noto Sans Devanagari', Devanagari, serif;
+  font-size: 1.05em;
+  margin: 6px 0 12px 0;
+  color: #b26a00;
+}
+.sunrise-mantra {
+  border-left: 3px solid #fbc02d;
+  padding-left: 10px;
+}
+.sunset-mantra {
+  border-left: 3px solid #ff7043;
+  padding-left: 10px;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom, #87ceeb, #fefbd8);
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.card {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+.manual-location {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.manual-location input {
+  width: 110px;
+  padding: 4px 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.manual-location button {
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  background: #f9a825;
+  color: #222;
+  cursor: pointer;
+}
+.manual-location button:hover {
+  background: #fbc02d;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0078d7;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
